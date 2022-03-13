@@ -1,10 +1,14 @@
+body {
+    background-color: #b8b8bd;
+}
+
 .navbar {
     overflow: hidden;
-    background-color: #929cf5;
+    background-color: #b7bdf1;
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 80px;
     right: 0px;
 }
 
@@ -20,13 +24,13 @@
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
 }
 
 nav ul li {
     text-align: center;
-    padding: 14px;
+    padding: 9px;
     display: inline;
     margin-left: auto;
     float: right;
@@ -42,4 +46,23 @@ h2 {
     color: black;
     border-radius: 20px;
     padding: 5px;
+    transition: 500ms;
+}
+
+.Evento_1 {
+    margin-top: 80px;
+    position: absolute;
+}
+
+img {
+    float: left;
+    border-radius: 5%;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin: 16px;
+    margin-top: 40px;
 }
